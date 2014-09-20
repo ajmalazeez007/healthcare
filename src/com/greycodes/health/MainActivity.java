@@ -50,7 +50,7 @@ int[] nav_options;
 
 		mTitle = mDrawerTitle = getTitle();
 		
-		nav_options = new int[]{R.drawable.ic_home,R.drawable.ic_home,R.drawable.ic_home};
+		nav_options = new int[]{R.drawable.nav_myprofile,R.drawable.nav_near,R.drawable.nav_reminder};
 		
 adapter = new HomeNDadapter(getApplicationContext(), nav_options);
 		// load slide menu items

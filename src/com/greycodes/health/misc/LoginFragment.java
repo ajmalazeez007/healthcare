@@ -39,7 +39,7 @@ ImageView signup;
 	etage = (EditText) rootview.findViewById(R.id.signup_age);
 	etsex = (EditText) rootview.findViewById(R.id.signup_sex);
 	etpass = (EditText) rootview.findViewById(R.id.signup_pass);
-	signup = (ImageView) rootview.findViewById(R.id.signup_image);
+	signup = (ImageView) rootview.findViewById(R.id.signup);
 	
 	signup.setOnClickListener(new OnClickListener() {
 		

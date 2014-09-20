@@ -2,17 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    <TextView android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:gravity="center_horizontal" >
+    <TextView
         android:id="@+id/addmed_medname"
-        android:text="Medicine name"/>
-    <EditText android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/addmed_from"/>
-     <EditText android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/addmed_till"/>
+        
+       
+      
+        
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Name" />
+    
+    <EditText
+            android:id="@+id/addmed_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Taken From"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#95FFFFFF" />
+    
+    
+   <EditText
+            android:id="@+id/addmed_till"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Taken till"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#95FFFFFF" />
+     
+     
      <RadioGroup
                 android:id="@+id/addmed_afterbefore"
                 android:layout_width="wrap_content"
@@ -33,12 +63,19 @@
                     android:text="after" />
          
             </RadioGroup>
-<EditText android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/addmed_times"/>
+  <EditText
+            android:id="@+id/addmed_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Times Taken"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#95FFFFFF" />
 
 <ImageView android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@drawable/ic_drawer"
+    android:src="@drawable/add"
     android:id="@+id/addmed_add"/>
 </LinearLayout>
